@@ -86,6 +86,3 @@ public class Usuario {
 		this.data_publicacao = data_publicacao;
 	}
 }	
-	
-	
-	

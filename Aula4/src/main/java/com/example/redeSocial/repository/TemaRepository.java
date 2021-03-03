@@ -9,6 +9,6 @@ import com.example.redeSocial.model.Tema;
 
 @Repository
 public interface TemaRepository extends JpaRepository<Tema, Long> {
-	public List<Tema> findAllByTituloContainingIgnoreCase (String titulo);
+	public List<Tema> findAllByCategoriaContainingIgnoreCase (String categoria);
 	
 }
